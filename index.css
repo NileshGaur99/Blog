@@ -1,0 +1,138 @@
+:root{
+	font-size: 17px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.container1{
+	display: flex;
+	flex-direction: column;
+	margin: 2vw;
+
+}
+
+.container2{
+	display: flex;
+	flex-direction: column;
+	margin: 10vw;
+}
+.banner .card {
+  background: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px 2px #35eea4;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .banner .card .heading {
+    color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 13vw;
+}
+
+    .banner .card .sub-heading {
+    color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0 5vw 2vw;
+}
+
+.heading{
+	color: #35eea4;
+	font-family: "Playfair Display", serif;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.row{
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.para {
+  color: #2c2c2c;
+  font-family: "Istok Web", sans-serif;
+  width: 60%;
+}
+.row .myimage{
+	margin-left: 7vw;
+	width: 25vw;
+	height: 30vw;
+}
+
+
+.para1{
+	width: 40%;
+}
+.pro{
+	margin-left: 8vw;
+	width: 40vw;
+}
+.row-inner{
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.tool{
+	margin: 4vh;
+
+}
+.title{
+	margin-top: 5vw;
+}
+.gallery-row1{
+	margin-top: 10vw;
+	margin-left: 10vw;
+	display: flex;
+	flex-direction: row;
+}
+.gallery-row2{
+	margin-top: 10vw;
+	margin-left: 10vw;
+	display: flex;
+	flex-direction: row;
+}
+.footer{
+	padding-top: 4vw;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 725px)
+{
+  .row{
+    flex-direction: column;
+  }
+  .row .image{
+    order: -1;
+  }
+  .row .my-image{
+    width: 60%;
+  }
+	.row-inner{
+		flex-direction: column;
+	}
+
+}
